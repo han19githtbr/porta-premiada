@@ -1,0 +1,43 @@
+.presente {
+    position: relative;
+    display: flex;
+    //width: 200px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tampa {
+    width: 100px;  /* largura */
+    height: 25px;  /* altura */
+    background-color: #0902ec;
+}
+
+.corpo {
+    width: 90px;   /* largura */
+    height: 60px;  /* altura */
+    background-color: #3558d0;
+}
+
+.laco1 {
+    position: absolute;
+    width: 15px;
+    height: 85px;
+    background-color: red;
+}
+
+.laco2 {
+    position: absolute;
+    top: 40px;
+    width: 90px;
+    height: 15px;
+    background-color: red;
+}
+
+.sombra {
+    position: absolute;
+    width: 15px;  /* largura */
+    height: 1px;  /* altura */
+    background-color: #cccccc;
+    top: 24px;
+    
+}
