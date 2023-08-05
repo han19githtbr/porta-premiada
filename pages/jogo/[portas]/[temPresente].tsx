@@ -11,6 +11,7 @@ export default function Jogo() {
     const [valido, setValido] = useState(false)
     const [portas, setPortas] = useState([])
 
+    /* executa uma acao quando um estado muda */
     useEffect(() => {
         const portas = +router.query.portas
         const temPresente = +router.query.temPresente

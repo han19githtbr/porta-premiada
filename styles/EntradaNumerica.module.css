@@ -1,0 +1,33 @@
+.entradaNumerica {
+    display: flex;
+    color: black;
+    flex: 1; /* para 'value' ocupar o espaco todo(ficar no centro) */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.text {
+    color: #000;
+    font-size: 1.5rem;
+}
+
+.value {
+    font-size: 6rem;
+}
+
+.botoes {
+    display: flex;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    height: 60px;
+    width: 60px;
+    border: 1px solid;
+    margin: 5px;
+}
